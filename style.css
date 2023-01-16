@@ -1,0 +1,43 @@
+/*=====================General Styles=====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2ebe3;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+section, div {
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+}
+
+div {
+  width: 500px;
+}
+
+div p {
+  margin-bottom: 20px;
+}
+
+.image-section {
+  background-image: url(images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
