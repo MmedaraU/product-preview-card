@@ -7,6 +7,9 @@
 
 body {
   background-color: #f2ebe3;
+  font-size: 16px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 main {
@@ -15,29 +18,112 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 section, div {
-  padding: 5px;
+  padding: 15px;
 }
 
 section {
   display: flex;
   flex-direction: row;
-  height: 400px;
+  height: 35rem;
+  flex-wrap: wrap;
 }
 
 div {
-  width: 500px;
+  width: 25rem;
 }
 
 div p {
   margin-bottom: 20px;
 }
 
+/*========Buttons=========*/
+.btn {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #3c8067;
+  font-weight: 700;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #004d40;
+  cursor: pointer;
+}
+
+.btn img {
+  margin-right: 10px;
+}
+
+/*========Typography=========*/
+p, .old-price {
+  color: #9e9e9e;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h1 p {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 1rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1, .price {
+  font-family: Fraunces, Tahoma, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+/*=====================Image Section=====================*/
 .image-section {
   background-image: url(images/image-product-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/*=====================Text Section=====================*/
+.text-section {
+  background: #fff;
+  padding: 25px;
+}
+
+.price {
+  color: #3c8067;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.old-price {
+  font-weight: normal;
+  text-decoration: line-through;
+  font-size: 1.1rem;
+}
+
+/*=====================Media Queries=====================*/
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  main {
+    flex-direction: column;
+  }
+  .image-section {
+    min-height: 25rem;
+  }
 }
