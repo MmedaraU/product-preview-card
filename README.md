@@ -9,24 +9,22 @@
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-
 # Frontend Mentor - Product Preview component solution
 
 This is a solution to the [Product Preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 
 ## Overview
 
 ### Screenshot
 
-![Desktop View](images/)
-![Mobile View](images/)
+![Desktop View](images/solution-desktop.png)
+![Mobile View](images/solution-mobile.png)
 
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [Add live site URL here](https://mmedarau.github.io/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/solution-to-preview-card-component-challenge-d4haOI_WAp)
+- Live Site URL: [Add live site URL here](https://github.com/MmedaraU/product-preview-card)
 
 ## My process
 
