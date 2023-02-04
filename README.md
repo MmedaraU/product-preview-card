@@ -24,7 +24,7 @@ This is a solution to the [Product Preview component challenge on Frontend Mento
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/solution-to-preview-card-component-challenge-d4haOI_WAp)
-- Live Site URL: [Add live site URL here](https://github.com/MmedaraU/product-preview-card)
+- Live Site URL: [Live site URL](https://github.com/MmedaraU/product-preview-card)
 
 ## My process
 
